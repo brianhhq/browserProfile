@@ -83,7 +83,9 @@ export class AppComponent {
 	constructor(){
 		this.persons.sort(function(a,b) {return (a.firstName > b.firstName) ? 1 : ((b.firstName > a.firstName) ? -1 : 0);} );
 		setTimeout(() => {
+			var id = this.persons[0].id;
 			jQuery('#myTab').tabCollapse();
+			jQuery('.nav a[href="#'+id+'"]').tab('show')
 		}, 1000);
   	}
 	
