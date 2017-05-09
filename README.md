@@ -1,14 +1,9 @@
 # Profile
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.2.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
 
 ## Build
 
@@ -25,4 +20,19 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Brian Huang <brian.huang@mq.edu.au>
+
+## Questions
+
+Using the data set (data.js) and images provided (images folder), construct any css, javascript, and html required to produce the output as shown in desktop.png and mobile.png.
+
+Use any technology/tools/libraries at your disposal and take as long as you like, although 60-90 minutes should be enough.
+
+Constraints:
+•	Responses must be executable entirely in a browser (using the file:// protocol)
+•	Any 3rd party libraries must be included in the zip file
+•	Responses must not rely on any browser plugins
+
+We can't provide any more information, so please make assumptions if you have any questions.
+
+Please send completed response back as a 7z file (http://sourceforge.net/projects/sevenzip/files/7-Zip/9.20/7z920.msi/download?use_mirror=aarnet).
