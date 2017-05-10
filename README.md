@@ -1,4 +1,13 @@
 # Profile
+This is a mini project for CBA Web UI Test.
+
+I used angular4 to build up the application along with jquery and bootstrap.
+This application is responsive and tablet friendly. It will show the navagation tabs in desktop mode and collapsable pane in tablet mode.
+The profile is sorting by alphabet ascending based on the first name.
+I wrote a pipe for replacing the new line in the bio string.
+The application is tested via krama over the page title and the component.
+
+I copied over the data into the component because I think this is a small project and no point to read it from the file. If it does, we usually read it from api via http and this need involve services and more testing.
 
 
 ## Development server
@@ -13,10 +22,9 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Deployment
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+Run `ng build -prod` and copy dist folder over the www folder
 
 ## Further help
 

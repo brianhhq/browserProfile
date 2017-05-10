@@ -86,7 +86,7 @@ export class AppComponent {
 			var id = this.persons[0].id;
 			jQuery('#myTab').tabCollapse();
 			jQuery('.nav a[href="#'+id+'"]').tab('show')
-		}, 1000);
+		}, 10);
   	}
 	
 }
